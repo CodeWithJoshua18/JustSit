@@ -1,4 +1,49 @@
 :root{
+    --main-color:#e3e8e4;
+    --primary-color:#363636;
     --main-font:"Lora", serif;
     --secondary-font:"Roboto", sans-serif;
 }
+
+/* resets */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav start */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+ul li{
+    display: inline;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 4rem;
+}
+
+li a:hover{
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+}
+
+.btn-fill{
+    padding: 10px 30px;
+    background: var(--primary-color);
+    border: none;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+}
+/* nav end */
