@@ -120,9 +120,9 @@ header{
 /* popularity end */
 
 /* product start */
-.products-container{
+/* .products-container{
     height: 100vh;
-}
+} */
 
 .products-heading{
     text-align: center;
@@ -178,4 +178,32 @@ header{
     background-size: cover;
     background-position: center;
     margin-bottom: 20px;
+}
+
+.product-content{
+    background: var(--primary-color);
+    padding: 27px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+
+.product-name{
+    font-family: var(--secondary-font);
+    margin-bottom: 10px;
+}
+
+.b-container{
+    text-align: center;
+}
+
+.b-container button{
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
