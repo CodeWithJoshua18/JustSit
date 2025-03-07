@@ -281,3 +281,14 @@ header{
     margin-top: 20px;
 }
 /* why us end */
+
+/* features start */
+.features{
+    margin-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* features end */
