@@ -290,5 +290,46 @@ header{
     justify-content: space-around;
     align-items: center;
 }
-
 /* features end */
+
+/* footer start */
+footer{
+    background: var(--primary-color);
+    margin-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+/* footer end */
+
+/* responsiveness */
+@media only screen and(max-width: 1150px){
+    .img-container{
+        width: 340px;
+        height: 340px;
+    }
+    .d-none{
+        display: none;
+    }
+}
+
+@media only screen and(max-width: 900px){
+    header{
+        height: 120vh;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .content-container{
+        margin-bottom: 6rem;
+        margin-top: 4rem;
+        margin-left: 0;
+    }
+
+    .popularity{
+        margin-top: 22rem;
+        text-align: center;
+    }
+}
